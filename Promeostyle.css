@@ -1,0 +1,36 @@
+.button {
+    background-color: rgb(48, 166, 202);
+    border-radius: 5px;
+    border-top: rgb(48, 166, 202);
+    border-bottom: rgb(48, 166, 202);
+    border-right: rgb(48, 166, 202);
+    border-left: rgb(48, 166, 202);
+    height: 36px;
+    width: 10%;
+    color: #FFF;
+}
+
+@media (max-width: 1200px) {
+    .button {
+        width: 13%;
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        font-size: 15px;
+    }
+    .fw-bold {
+        max-width: 100%;
+        padding: 0px;
+    }
+    .button {
+        width: 21%;
+    }
+}
+
+@media (max-width: 500px) {
+    .button {
+        width: 25%;
+    }
+}
